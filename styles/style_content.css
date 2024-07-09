@@ -1,0 +1,83 @@
+content {
+    display: flex;
+    flex-grow: 1;
+    margin: 4%;
+}
+
+.content_left {
+    position: relative;
+    display: flex;
+    width: 50%;
+    flex-flow: wrap;
+    font-size: 1.8vh;
+}
+
+.content_left_up {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.content_left_up p{
+    margin: 0px;
+}
+
+.content_left_down {
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content_left_down p {
+    width: 100%;
+}
+
+.content_left_down button:not(:last-child) {
+    width: 40px;
+    height: 30px;
+    padding: 10px;
+    margin: 1px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-to-cart {
+    position: absolute;
+    background-color: #605f5f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    right: 15px;
+    bottom: 5px;
+    padding: 3px 15px;
+}
+
+.content_right {
+    width: 50%;
+    display: flex;
+    flex-flow: wrap;
+    margin: 1%;
+    justify-content: space-between;
+}
+
+.content_right img:first-child {
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.content_right img {
+    width: calc(25% - 10px);
+    margin-bottom: 5px;
+}
+
+

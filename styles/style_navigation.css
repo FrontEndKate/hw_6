@@ -1,0 +1,43 @@
+body{
+    height: 100vh;
+}
+
+.navigation{
+    display: flex;
+    background-color: #605f5f;
+    color: white;
+    align-items: center;
+}
+.nav_right{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.nav_left{
+    flex-grow: 10;
+    display: flex;
+    align-items: center;
+}
+
+.nav_left h3{
+    padding-left: 2%;
+    margin-left: 5%;
+
+ }
+
+.nav_left li
+{
+    display: inline-block;
+    margin: 10px auto;
+    padding: 0px 5px ;
+}
+
+.nav_right input{
+     background-color: #605f5f;
+     border: 1px solid white;
+     margin: 15px;
+     border-radius: 15px;
+     padding: 5px;
+ }
+
