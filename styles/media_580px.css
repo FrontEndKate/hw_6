@@ -1,0 +1,42 @@
+@media screen and (max-width: 580px) {
+    .nav_left {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav_left h3, .nav_left li {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .navigation a {
+        display: none;
+    }
+
+    .content_right img {
+        display: none;
+    }
+
+    .content_right img.media_960 {
+        display: block;
+        width: 110%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .content_left_down{
+        bottom: 55px;
+        left: 28%;
+
+    }
+
+    .add-to-cart {
+        position: fixed;
+        bottom: 10px;
+        width: 60%;
+        padding: 10px;
+        left: 23%;
+    }
+
+}
